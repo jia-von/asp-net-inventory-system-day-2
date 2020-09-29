@@ -20,7 +20,7 @@ namespace InventorySystem.Controllers
 
         public ActionResult<IEnumerable<Product>> ShowInventory_GET()
         {
-            return new ProductController().ShowInventory().ToArray();
+            return new ProductController().ShowInventory();
         }
 
         // Create an HttpPost “AddProduct” endpoint that allows the user to add a product to the database
