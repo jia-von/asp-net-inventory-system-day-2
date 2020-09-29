@@ -7,7 +7,9 @@ import { Counter } from './components/Counter';
 import { AddProduct } from './components/AddProduct';
 import { DiscontinueProduct } from './components/DiscontinueProduct';
 import { AddProductQuantity } from './components/AddProductQuantity';
+import { SubtractProductQuantity } from './components/SubtractProductQuantity';
 import './custom.css'
+
 
 
 
@@ -23,6 +25,7 @@ export default class App extends Component {
                 <Route path='/add-product' component={AddProduct} />
                 <Route path='/discontinue-product' component={DiscontinueProduct} />
                 <Route path='/add-product-quantity' component={AddProductQuantity} />
+                <Route path='/subtract-product-quantity' component={SubtractProductQuantity} />
             </Layout>
         );
     }
