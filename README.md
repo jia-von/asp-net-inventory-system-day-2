@@ -5,7 +5,7 @@ This assignment is meant to challenge my mastery of ASP.NET Core and how I am ab
 ## Installation
 
 ```bash
-$ git clone https://github.com/TECHCareers-by-Manpower/asp-net-inventory-system-day-2-jia-von.git
+$ git clone https://github.com/jia-von/asp-net-inventory-system-day-2.git
 $ cd asp-net-inventory-system-day-2-jia-von
 $ start devenv asp-net-inventory-system-day-2-jia-von.sln
 ````
